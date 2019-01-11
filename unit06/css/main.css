@@ -1,0 +1,313 @@
+body {
+	margin-top: 30px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+#phan1 {
+	margin:0;
+	height: 90px;
+	
+}
+.phan11 {
+	float: left;
+	width: 44%;
+}
+.phan112 {
+margin-top: 30px;
+}
+.phan12 {
+	z-index: 1;
+	float: left;
+	text-align: center;
+	width: 12%;
+
+}
+.phan111 {
+	float: right;
+	padding-left: 50px;
+}
+
+a{
+	color: #000077;
+	text-decoration: none;
+}
+a:hover{
+	color: #33CCCC;
+	text-decoration: underline;
+}
+#phan2 {
+	height: 1000px;
+	background: #EEEEEE;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.phan2 {
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 100px;
+	text-align: center;
+
+}
+.anh1 {
+	width: 30%;
+	float: left;
+	padding-right: 5%;
+	padding-bottom: 60px;
+	height: 200px;
+}
+.anh2 {
+	width: 30%;
+	float: left;
+	padding-right: 5%;
+	padding-bottom: 60px;
+	height: 200px;
+}
+.anh4{
+	width: 30%;
+	float: left;
+	padding-right: 5%;
+	padding-bottom: 60px;
+	height: 200px;
+}
+.anh5 {
+	width: 30%;
+	float: left;
+	padding-right: 5%;
+	padding-bottom: 60px;
+	height: 200px;
+}
+.anh3 {
+	padding-right: 0;
+	width: 30%;
+	float: left;
+	padding-bottom: 60px;
+}
+.anh6 {
+	padding-right: 0;
+	width: 30%;
+	float: left;
+	padding-bottom: 60px;
+}
+.lorem {
+	
+
+}
+.icon {
+	float: right;
+}
+#phan3 {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+.left3{
+	width: 65%;
+	float: left;
+}
+.right3{
+	width: 30%;
+	float: right;
+}
+.phan3{
+
+}
+.chuxanh{
+	color: #00CCCC;
+	font-size: 23px;
+}
+.chuxam{
+	color: #BBBBBB;
+}
+.chugachchan {
+	color: #66CCFF;
+	text-decoration: underline;
+}
+.fb {
+	color: white;
+	background: #333399;
+	border-radius: 100%;
+	margin-right: 20px;
+	margin-top: 30px;
+	border:solid;
+	border-color: black;
+}
+#phan4 {
+	margin-top: 50px;
+	background: #339999;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.phan4 {
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top:  30px;
+	color: white;
+	padding-bottom: 50px;
+}
+.input {
+	margin-top: 20px;
+	
+}
+.send {
+	background-color: #660066;
+	border-width: 0;
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: white;
+	font-weight: bold;
+}
+.tieude {
+	font-size: 45px;
+	color: #00CCCC;
+	text-shadow: 0.05em 0.05em #333;
+}
+@media (max-width: 960px){
+	
+}
+@media (max-width: 720px){
+	.anh1{
+	width: 44%;
+	float: left;
+	padding-bottom: 60px;
+	height: 200px;
+	padding-right: 0;
+	}
+	.anh2 {
+	width: 44%;
+	float: right;
+	padding-bottom: 60px;
+	height: 200px;
+	}
+	.anh3{
+	width: 44%;
+	float: left;
+	padding-bottom: 60px;
+	height: 200px;
+	padding-right: 0;
+	}
+	.anh4 {
+	width: 44%;
+	float: right;
+	padding-bottom: 60px;
+	height: 200px;
+	padding-right: 0;
+	}
+	.anh5{
+	width: 44%;
+	float: left;
+	padding-bottom: 60px;
+	height: 200px;
+	padding-right: 0;
+	}
+	.anh6 {
+	width: 44%;
+	float: right;
+	padding-bottom: 60px;
+	height: 200px;
+	padding-right: 0;
+	}
+	#phan2 {
+	height: 1300px;
+	background: #EEEEEE;
+	margin-left: 40px;
+	margin-right: 40px;
+
+	}
+	.tieude {
+	font-size: 28px;
+	color: #00CCCC;
+	text-shadow: 0.05em 0.05em #333;
+	}
+	.right3 {
+		float: none;
+		width: 100%;
+	}
+	.left3 {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.fb {
+	color: white;
+	background: #333399;
+	border-radius: 100%;
+	margin-right: 6%;
+	margin-left: 6%;
+	margin-top: 30px;
+	border:solid;
+	border-color: black;
+}
+}
+@media (max-width: 480px){
+	.anh1{
+	width: 100%;
+	padding-bottom: 60px;
+	height: 200px;
+	padding-right: 0;
+	}
+	.anh2 {
+	width: 100%;
+	padding-bottom: 60px;
+	height: 200px;
+	padding-right: 0;
+	}
+	.anh3{
+	width: 100%;
+	padding-bottom: 60px;
+	height: 200px;
+	padding-right: 0;
+	}
+	.anh4 {
+	width: 100%;
+	padding-bottom: 60px;
+	height: 200px;
+	padding-right: 0;
+	}
+	.anh5{
+	width: 100%;
+	padding-bottom: 60px;
+	height: 200px;
+	padding-right: 0;
+	}
+	.anh6 {
+	width: 100%;
+	padding-bottom: 60px;
+	height: 200px;
+	padding-right: 0;
+	}
+	#phan2 {
+	height: 2000px;
+	background: #EEEEEE;
+	margin-left: 40px;
+	margin-right: 40px;
+	}
+	.phan11 {
+		display: none;
+	}
+	.phan12 {
+		width: 100%;
+
+		float: center;
+	}
+	.anhlogo {
+		width: 40%;
+	}
+	.tieude {
+	font-size: 20px;
+	color: #00CCCC;
+	text-shadow: 0.05em 0.05em #333;
+
+	}
+	.lg {
+	margin-right: 0;
+	margin-left: 0;
+	}
+	#phan3 {
+		margin-right: 40px;
+		margin-left: 40px;
+	}
+	.send {
+		width: 100%;
+	}
+}
