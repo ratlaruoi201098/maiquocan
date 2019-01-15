@@ -329,6 +329,14 @@ i.fas.fa-camera{
 	.phan6b1 {
 		padding-right: 5px;
 	}
+	.chucam {
+		padding-right: 4px;
+		padding-left: 4px;
+	}
+	.chuthuong {
+		padding-right: 4px;
+		padding-left: 4px;
+	}
 }
 @media (max-width: 480px) {
 	.phan1r {
