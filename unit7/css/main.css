@@ -1,0 +1,349 @@
+#phan1 {
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 50px;
+	line-height: 50px;
+}
+.phan1l {
+	float: left;
+}
+.phan1r {
+	float: right;
+	font-size: 12px;
+}
+.bar {
+	display: none;
+	float: right;
+	padding :1px 5px;
+	border:solid;
+
+}
+.chucam {
+	color: #FF3300;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.chuthuong {
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#phan2 {
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.phan2 {
+	position: relative;
+}
+.phan2l{
+	position: absolute;
+	top: 50%;
+	left: 40px;
+	background: #777777;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: #CCCCCC;
+	text-align: center;
+}
+.phan2r{
+	position: absolute;
+	top: 50%;
+	right: 40px;
+	background: #777777;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: #CCCCCC;
+	text-align: center;
+}
+.daucham{
+	width: 10px;
+	height: 10px;
+	background: #777777;
+	border-radius: 100%;
+	float: left;
+	margin: 10px;
+}
+.phan2c{
+	position: absolute;
+	left: 45%;
+}
+#phan3 {
+	text-align: center;
+}
+.phan3b {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.cre {
+	float: left;
+	width: 25%;
+}
+i.fas.fa-cogs{
+	font-size: 30px;
+	padding:15px;
+	border-radius: 100%;
+	background: #FF3300;
+	color: white;
+}
+i.fas.fa-leaf{
+	font-size: 30px;
+	padding:15px;
+	border-radius: 100%;
+	background: #FF3300;
+	color: white;
+}
+i.far.fa-heart{
+	font-size: 30px;
+	padding:15px;
+	border-radius: 100%;
+	background: #FF3300;
+	color: white;
+}
+i.fas.fa-laptop{
+	font-size: 30px;
+	padding:15px;
+	border-radius: 100%;
+	background: #FF3300;
+	color: white;
+}
+i.fas.fa-rocket{
+	font-size: 20px;
+	padding:20%;
+	border-radius: 100%;
+	background: #FF3300;
+	color: white;
+	margin-right: 5px;
+}
+i.fas.fa-camera{
+	font-size: 20px;
+	padding:20%;
+	border-radius: 100%;
+	background: #FF3300;
+	color: white;
+	margin-right: 5px;
+}
+.phan3bb{
+	margin-top: 60px;
+	font-size: 15px;
+	color: #888888;
+}
+#phan4 {
+	margin-top: 30px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.phan4anh {
+	float: left;
+	width: 44%;
+
+}
+.phan4b {
+	margin-top: 40px;
+}
+.phan4bb {
+	float: left;
+	width: 32%;
+	padding-right: 2%;
+}
+.seo {
+	font-size: 13px;
+}
+.seo2 {
+	font-size: 12px;
+	margin-top: 5px;
+	color: #888888;
+}
+#phan5 {
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.phan5a {
+	background: #FF3300;
+	height: 300px;
+	color: white;
+	text-align: center;
+}
+.phan5a1 {
+	padding-top: 80px;
+}
+.phan5a2 {
+	padding-top: 20px;
+}
+.phan5a3l {
+	background: white;
+	padding:10px 20px;
+	color: black;
+	width: 120px;
+	font-size: 15px;
+	float: right;
+	border-radius: 20px;
+}
+.phan5a3 {
+	margin-top: 40px;
+}
+.phan5b {
+	height: 500px;
+	background: #EEEEEE;
+	text-align: center;
+}
+.phan5c {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.phan5bt {
+	font-size: 25px;
+	padding-top: 80px;
+}
+.phan5bc {
+	font-size: 30px;
+	padding-top: 15px;
+}
+.phan5bb {
+	padding-top: 30px;
+}
+.phan5bb1 {
+	width: 25%;
+	float: left;
+	margin-top: 20px;
+}
+.anhphan52 {
+	padding-left: 12%;
+	padding-right: 12%;
+	color: #888888;
+	margin-top: 30px;
+}
+#phan6 {
+	background: #555555;
+	height: 350px;
+	color: white;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 13px;
+}
+.phan6t {
+	height: 300px;
+	margin-right: 10%;
+	margin-left: 10%;
+	background: #555555;
+	color: white;
+}
+.phan6b {
+	background: #222222;
+	height: 50px;
+	padding-right: 30px;
+	padding-left: 30px; 
+	line-height: 50px;
+}
+.phan6tt {
+	width: 31%;
+	float: left;
+	padding-right: 3%;
+	margin-top: 40px;
+}
+.phan6tb {
+	margin-top: 30px;
+	font-size: 12px;
+}
+.fb {
+	font-size: 15px;
+	color: black;
+	float: left;
+	margin-right: 5px;
+	background: black;
+	color: white;
+	border-radius: 100%;
+	width: 28px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;	
+}
+.facebook {
+	margin-top: 10px;
+}
+.hr {
+	margin-top: 10px;
+}
+.imgphan5 {
+	width: 40%;
+	border-radius: 30px;
+}
+
+.phan6bl{
+	width: 50%;
+	float: left;
+}
+.phan6br{
+	width: 50%;
+	float: right;
+}
+.phan6br1 {
+	float: right;
+	padding-right: 20px;
+}
+@media (max-width: 700px) {
+	.phan4bb {
+		width: 100%;
+		padding-right: 0;
+		margin-bottom: 20px;
+	}
+	.phan5bb1 {
+		width: 100%;
+		margin-top: 40px;
+	}
+	.imgphan5 {
+		width: 20%;
+	}
+	.phan5b {
+		height: 1200px;
+	}
+	.phan6tt {
+		width: 100%;
+		padding-right: 0;
+	}
+	#phan6 {
+		height: 700px;
+	}
+	.phan6t {
+		height: 650px;
+	}
+	.phan6bl {
+		width: 100%;
+
+	}
+	.phan6br {
+		width: 100%;
+	}
+	.phan6b {
+		height: 60px;
+		line-height: 30px;
+
+	}
+	.phan6b1 {
+		padding-right: 5px;
+	}
+}
+@media (max-width: 480px) {
+	.phan1r {
+		display: none;
+	}
+	.bar {
+		display: block;
+	}
+	#phan1 {
+		height: 20px;
+		line-height: 20px;
+	}
+	.cre {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+}
