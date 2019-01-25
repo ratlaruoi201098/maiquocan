@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" id="input" placeholder="nhập nội dung">
+  <button id="add">add</button>
+  <table>
+    <tbody id=content>
+
+    </tbody>
+  </table>
+  <button onclick="toggChecked(true)">check all</button>
+  <button onclick="toggChecked(false)">uncheck all</button>
+  <script type="text/javascript">
+    var i=1;
+    document.getElementById('add').addEventListener('click',function(){
+      var input=document.getElementById('input')
+      if(input.value==''){
+        alert("vui lòng nhập nội dung")
+      }
+      else{
+      var content=document.getElementById('content')
+          content.innerHTML+=`<tr id="`+i+`">
+             <td><input type="checkbox"></td>
+             <td>`+input.value +`</td>
+             <td><button onclick="funDelete(`+i+`)">Xoa</button></td>
+             <td><button onclick="edit(`+i+`)">Edit</button></td>
+             </tr>`;
+      
+      input.value=''
+      i++;}
+    })
+    function funDelete(id){
+      document.getElementById(id).remove()
+    }
+    function edit(id){
+     var input = document.getElementById('text')
+     input.value=text
+    }
+    function toggChecked(status){
+      var checkboxs = document.getElementsByTagName('input');
+      for (var i = 0; i < checkboxs.length; i++) {
+        checkboxs[i].checked = status
+      }
+    }
+  </script>
+ </body>
+ </html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- <h1 class="name">hello world</h1>
+	<h1 class="name">hello world 1</h1>
+	<button id="clickme">click me</button>
+
+	<script type="text/javascript">
+		document.getElementsByClassName("name")[0].style.color="red"
+		document.getElementsByClassName("name")[1].style.color="blue"
+		document.getElementById('clickme').addEventListener('click', function()
+		{
+			document.getElementsByClassName('name')[1].style.color="green"
+		})
+
+	</script> -->
+	
+	<input type="text" name="aaa" class=input> 
+	<button class="add">click me</button>
+	<table>
+		<tbody class="content">
+
+		</tbody>
+	</table>
+	<div class="content"></div>
+	<script type="text/javascript">
+		
+		document.getElementsByClassName('add')[0].addEventListener('click', function()
+		{
+			var input = document.getElementsByClassName('input')[0]
+			var content = document.getElementsByClassName('content')[0]
+
+			content.innerHTML += `<tr id="` + i + `">
+				<td>` + input.value + `</td>
+				<td><button onclick = "funDetele(` + i + `)">Delete</button></td>
+			</tr>`;
+			input.value=''
+			i++;
+
+		})
+
+	</script>
+</body>
+</html>
