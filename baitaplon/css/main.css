@@ -1,0 +1,83 @@
+#top{
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #003366;
+	opacity: 0.8;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+.btn.btn-outline-primary{
+	
+	color: #FF6600;
+	padding: 2px 25px;
+	border-width: 2px;
+	border-color: white;
+	font-size: 20px;
+}
+.bg-light{
+	background-color: #003366!important;
+	padding: 0px 16px;
+	margin: 10px 0px;
+}
+
+
+@media (min-width: 576px)
+{
+	.navbar-expand-sm .navbar-collapse {
+   	display: inline-block!important;
+
+	}
+}
+@media (max-width: 725px){
+
+		#top{
+			padding: 0;
+			
+		}
+		.navbar-light .navbar-nav .nav-link {
+			padding: 8px 4px;
+		    font-size: 15px;
+		}
+}
+.navbar-brand{
+	margin-right: 0;
+}
+.btn.btn-outline-primary {
+	padding: 5px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    border-bottom: 2px solid #003366;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #FF6600;
+	border-color: #FF6600;
+	
+}
+.btn.btn-outline-primary:hover {
+	background: #FF6600;
+	color: black;
+}
+.anhcon {
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    background: black;
+    opacity: 0.5;
+}
+.fas.fa-map-marker-alt {
+	position: absolute;
+    top: 30%;
+    left: 49%;
+}
+.webdesign{
+	position: absolute;
+	top: 50%;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+}
