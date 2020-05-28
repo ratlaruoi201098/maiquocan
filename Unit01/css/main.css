@@ -1,0 +1,132 @@
+#allhead{
+	background-image: url(../picture/homebg.jpg);
+	display: block;
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+}
+.head-letters{
+	color: white;
+	padding: 0 15px;
+	font-weight: bold;
+}
+.head-letters:hover{
+	color: orange;
+	text-decoration: none;
+
+}
+.navbar-nav{
+	margin-left: auto;
+}
+.under-head-letters{
+	background-color: orange;
+	width: 50px;
+	text-align: center; 
+	size: 2px;
+	display: none;
+}
+.under-head-letters:hover{
+	display: block;
+	background-color: red;
+}
+.stab-menu{
+	background-repeat: no-repeat;
+	height: 200px;
+	background-image: url(../picture/stabmenubg.png);
+
+}
+#design{
+	margin-bottom: 150px;
+}
+#container{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	position: relative;
+	width: 100%;
+	
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
+	transition: .5s ease;
+	background-color: #888888;
+}
+.text{
+
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.play{
+	border-radius: 50%;
+	padding-top: 10px;
+	border: 1px solid;
+	height: 52px;
+	width: 60px;
+	text-align: center !important;
+	margin-left: 60px !important;
+}
+#container1{
+	position: relative;
+	width: 100%;
+}
+.overlay1{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 450px;
+	width: 100%;
+	opacity: 0.5;
+	transition: .5s ease;
+	background-color: #888888;
+}
+#design3{
+	margin-top: 30px;
+}
+.skmenu{
+	background-image: url(../project/picture/skmenubg.png);
+	width: 27%;
+	height: 58px;
+	float:left;
+	margin: 0 15px; 
+	text-align: center;
+	padding-top: 15px;
+}
+.progress {
+	height: 35px;
+}
+.progress .skill {
+	font: normal 12px "Open Sans Web";
+	line-height: 35px;
+	padding: 0;
+	margin: 0 0 0 20px;
+	text-transform: uppercase;
+}
+.progress .skill .val {
+	/*float: right;*/
+	font-style: normal;
+	margin: 0 20px 0 0;
+}
+.progress-bar {
+	text-align: left;
+	transition-duration: 3s;
+}
+#design4{
+	margin-bottom: 30px;
+}

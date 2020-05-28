@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#content{
+			width: 200px;
+			height: 200px;
+			background: blue;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+<!-- 
+	<div id="top">
+		<ul>
+			<li class="item">
+				<span>1</span>
+				<span>2</span>
+			</li>
+			<li>
+				<b>aaaa</b>
+			</li>
+		</ul>
+	</div>
+
+	<script type="text/javascript" src="../jquery.min.js"></script>
+
+	<script>
+		$('.item').children().css('background')
+
+	</script> -->
+	<button onclick="clickme()">
+		click me
+	</button>
+	<div id="content"></div>
+
+	<script type="text/javascript" src="../jquery.min.js"></script>
+
+	<script type="text/javascript">
+		function clickme() {
+			$('#content').slideToggle(500, function(){
+				alert('done')
+			});
+		}
+	</script>
+
+
+</body>
+</html>

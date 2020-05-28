@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+		}
+		#top{
+			width: 700px;
+			background: #EE0000;
+			color: white;
+			text-align: center;
+			padding-top: 30px;
+			font-size: 20px;
+		}
+		#add{
+			background: #CCCCCC;
+			width: 185px;
+			height: 36px;
+		}
+		#bot{
+			padding-bottom: 30px;
+			text-align: left;
+			margin-left: 50px;
+			margin-right: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div id="top">
+		<div>
+			<b>My To Do List</b>
+		</div>
+		<div id="bot">
+			<div style="display: inline-block;width: 400px;">
+				<input type="text" name="" placeholder="Title..." id="input" style="width: 100%;height: 30px;">
+			</div>
+			<div style="display: inline-block;">
+				<button  id="add">add</button>
+			</div>
+		</div>
+	</div>
+	<table>
+    <tbody id=content>
+
+    </tbody>
+  </table>
+	<script type="text/javascript">
+    var i=1;
+    document.getElementById('add').addEventListener('click',function(){
+      var input=document.getElementById('input')
+      if(input.value==''){
+        alert("vui lòng nhập nội dung")
+      }
+      else{
+      var content=document.getElementById('content')
+          content.innerHTML+=`<tr id="`+i+`">
+             <td><input type="checkbox"></td>
+             <td>`+input.value +`</td>
+             <td><button onclick="funDelete(`+i+`)">Xoa</button></td>
+             <td><button onclick="edit(`+i+`)">Edit</button></td>
+             </tr>`;
+      
+      input.value=''
+      i++;}
+    })
+    function funDelete(id){
+      document.getElementById(id).remove()
+    }
+    function edit(id){
+     var input = document.getElementById('text')
+     input.value=text
+    }
+    function toggChecked(status){
+      var checkboxs = document.getElementsByTagName('input');
+      for (var i = 0; i < checkboxs.length; i++) {
+        checkboxs[i].checked = status
+      }
+    }
+  </script>
+</body>
+</html>
